@@ -90,3 +90,45 @@
   el paquete que se quiera cargar.</p>
   <img src="./images/3.png">
 </div>
+
+<div>
+  <h2>Medidas de dispersión - Datos no agrupados</h2>
+  <p>
+    Serán medidas de dispersión obtenidas de variables cuantitativas, aquellas que se pueden contar, esto con el fin de realizar interpretaciones gráficas de los datos:
+    <h3>Cálculo del rango:</h3>
+  <dl>
+      Para el cálculo del rango se debe de tener en cuenta que existen dos formas, una es realizar la resta entre el mínimo y el máximo, mientras que la segunda opción es directamente con la función, la cual nos regresa dos valores que es el mínimo y máximo. Realmente se estaría haciendo lo mismo.
+      <dt>Máximo: max()</dt>
+          <dd>El valor máximo que se tiene en los datos recabados, los datos están ordenados el máximo es el último número.</dd>
+      <dt>Min: min()</dt>
+          <dd>El valor mínimo de los datos, si están ordenados entonces es el primer número.</dd>
+      <dt>Rango: range()</dt>
+          <dd>Tamaño del intervalo de datos, de modo que en datos noa agrupados se distinguen fácilmente al estar los datos ordenados, tal que el mínomo es trivial, es el      primer número, el máximo será el último. </dd>
+      </dl>
+  <img src="./images/4.png">
+  
+  <h3>Cálculo de la varianza:</h3>
+  Variable estadística capaz de medir dispersión de los valores con respecto a la media.
+  El valor se obtiene como s^2 por lo cual los datos están en cuadrado.
+  
+  <dl><dt>var()</dt><dd>La aplicación de la función es colocar la variable directamente en los paréntesis</dd></dl>
+  
+  
+  <h3>Cálculo de la desviación estándar</h3>
+  Esto es la raíz cuadrada de la desviación estándar, ayuda a medir la varianza con respecto a la media y además de un ajuste de unidades de la variable de estadística que se     trabaja.
+  
+  <dl><dt>sd()</dt><dd>La aplicación de la función es colocar la variable directamente en los paréntesis</dd></dl>
+  <dl><dt>sqrt(var())</dt><dd>También es otra forma, combinando funciones.</dd></dl>
+ 
+  
+  <h3>Coeficiente de variación</h3>
+  Es para poder comparar dispersiones de variables que están en unidades diferentes, o poblaciones desigualdades.
+  En R no hay una función como tal, pero es posible hacer el cálculo de este valor por medio de una combinación de funciones
+  Recordando que el coef. de variación se obtiene como un cociente de la desviación estandar entre la media, y se multiplica por 100 para el porcentaje
+  
+  <dl><dt> (sd()/mean())*100 [s] </dt></dl>
+  
+  
+  
+  </p>
+</div>
