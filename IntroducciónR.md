@@ -38,6 +38,7 @@
     Para ver la variable solo basta escribir el nombre de la variable en la línea de código.  
     Una vez que ya se tiene vectores, variables, pues estos mismos pueden operarse como C<-A*B
   </p>
+  <img src="./images/1.png">
 </div>
 
 <div>
@@ -45,10 +46,9 @@
   <p>
     Para esto se podrá hacer de dos formas, no obstante estas dos formas nosotros ya debemos de conocer de antemano el comando, y la ayuda será que nos dirá para qué sirve, 
     la función del comando.
-
     Entonces, la forma en que nosotros vamos a poder consultar información sobre estos comandos será por medio de dos caminos.
     <ul>
-      <li>
+      <li><li>
     </ul>
   
   </p>
