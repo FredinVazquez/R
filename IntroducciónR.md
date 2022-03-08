@@ -20,14 +20,11 @@
       <li>A*B: multiplicación de elementos.</li>
     </ul>
     
-    Se toma en cuenta que es posible la combinación de distintas operaciones, como: A*B-C. No obstante se toma en cuenta la jerarquía de operaciones, el orden queda
-    de la siguiente forma: 
-    
+    <p>Se toma en cuenta que es posible la combinación de distintas operaciones, como: A*B-C. No obstante se toma en cuenta la jerarquía de operaciones, el orden queda
+    de la siguiente forma.</p>  
     <ol>
       <li>Potencias/Raíces</li>
     </ol>
-  
-  
 </div>
 
 <div>
