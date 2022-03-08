@@ -48,8 +48,43 @@
     la función del comando.
     Entonces, la forma en que nosotros vamos a poder consultar información sobre estos comandos será por medio de dos caminos.
     <ul>
-      <li><li>
+      <li>?nombre_comando: es de esta forma que se obtiene información del comando, e.j. ?mean.</li>
+      <li>help(nombre_comando): misma función, e.j help(mean)</li>
     </ul>
   
   </p>
+</div>
+
+<div>
+  <h2>MTC - Datos no agrupados</h2>
+  <p>Algo a tener en cuenta es que estos comandos son destinados para relizar sobre datos no agrupados, en caso de querer hacerlo para datos agrupados se deberá de hacer
+  pequeños programos dentro del lenguaje.</p>
+  <ul>
+    <li>Media</li>
+    <li>Mediana</li>
+    <li>Moda</li>
+  </ul>
+  
+  <p>
+    La aplicación de estos comandos es simplemente la siguiente:
+    
+    <ul>
+      <li>mean(nombre_variable): la variable tendrá que tener ya los datos, por lo cual se pueden guardar con scanf.</li>
+      <li>median(nombre_variable)</li>
+      <li>modes(nombre_variable)</li>
+    </ul>
+    <img src="./images/2.png">
+    Se debe de tener presente algo: tanto la media como la mediana ya están incorporados en el paquete default de R, no obstante para la moda es necesario descargar de 
+  forma externa un paquete complementario de sitio de R, donde se descargó el programa.</p>
+  
+</div>
+
+
+<div>
+  <h2>Cargar paquetes</h2>
+  <p>Para poder realizar la instalación o descarga de paquetes aislado se tendrá que descargar el archivo del paquete en formato .tar, para poder cargar dicho paquete 
+  se tendrá que seleccionar en la barra de menu "Paquetes" una vez dentro se escoge "Instalar paquetes desde archivos locales". Ya solo queda unibar y abrir el archivo.
+  Lo siguiente es cargar el paquete en R para que funcione, para esto volvemos a "Paquetes" y escogemos "Cargar paquete" el cual nos despliega una lista en donde se busca
+  el paquete que se quiera cargar.</p>
+  <img src="./images/3.png">
 </div>
