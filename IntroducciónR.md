@@ -67,14 +67,16 @@
   
   <p>
     La aplicación de estos comandos es simplemente la siguiente:
-    
+    </p>
     <ul>
       <li>mean(nombre_variable): la variable tendrá que tener ya los datos, por lo cual se pueden guardar con scanf.</li>
       <li>median(nombre_variable)</li>
       <li>modes(nombre_variable)</li>
     </ul>
-    <img src="./images/2.png">
-    Se debe de tener presente algo: tanto la media como la mediana ya están incorporados en el paquete default de R, no obstante para la moda es necesario descargar de 
+    
+  <img src="./images/2.png">
+  
+  <p>Se debe de tener presente algo: tanto la media como la mediana ya están incorporados en el paquete default de R, no obstante para la moda es necesario descargar de 
   forma externa un paquete complementario de sitio de R, donde se descargó el programa.</p>
   
 </div>
