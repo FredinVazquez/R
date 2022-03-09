@@ -7,7 +7,7 @@
   El diagrama de tallo y hoja permite clasificar un conjunto de datos de acuerdo a su expresión decimal de cada dato, por lo cual el modo de obtener dicho diagrama es diviendo el 
   número por decimales, si el número es 98 entonces el tallo es 9 y la hoja 8. Dentro de R las cosas se fácilitan más debido a que solo se necesita poner la variable que 
   contiene a los datos dentro de la función stem.
-  <br><img src="./Images/12"><br>
+  <br><img src="./images/12.png"><br>
   
 </p>
 
@@ -18,13 +18,13 @@
       <ul>
         <li>stem(variable, scale="número")<li>
         Yo entiendo este parámetro como que realiza una división, puesto que scale es para modificar la longitud de cada renglón, y podemos observar lo siguiente
-        <br><img src="./Images/13"><br>
+        <br><img src="./images/13.png"><br>
         
         Se observa como se hace una especie de partición de cada renglón, anteriormente el tallo een cada renglón iba de 2 en 2, ahora al aplicar un scale=2 hubo una especie de 
         partición por lo cual ahora renglón va de 1 en 1.
         
         Ahora, si aplicamos un scale=4 se tendría que tener que cada renglón va de 0.5 a 0.5, y es lo que se observa
-        <br><img src="./Images/14"><br>
+        <br><img src="./images/14.png"><br>
         
         <li>width<li>
         Hacce referencia al ancho de la parcela
@@ -48,7 +48,7 @@
     como el tipo de mascotas, religiones, marcas bebidas por mexicanos, etc.
     
     Las diagramas de barras deberían de diferentes colores debido a que representan frecuencias diferentes.
-    
+  </p>
   <h2>Argumentos/parámetros en la función</h2>
    <p>
      Para poder realizar este diagrama en R se debe de contemplar que la función necesita de los siguientes parámetros:
@@ -71,11 +71,11 @@
   Nota: las etiquetas y colores van escritos entre comillas debido a que son string. 
        
        Ejemplo realizado:<br>
-       <br><img src="./Images/15"><br>
+       <br><img src="./images/15.png"><br>
        
        Se observa que cada barra aparece sin nombre alguno, para que aparezca con un nombre será necesario asociar un vector con los valores, y esto se hace de la siguiente 
        forma: names(variable)<-c("Barra1","Barra2","Barra3") Se observa de nuevo el uso de c puesto que se trata de un vector
-        <br><img src="./Images/16"><br>
+        <br><img src="./images/16.png"><br>
   </p>
 </div>
     
