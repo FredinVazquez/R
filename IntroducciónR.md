@@ -128,7 +128,53 @@
   
   <dl><dt> (sd()/mean())*100 [s] </dt></dl>
   
-  
-  
   </p>
 </div>
+
+<div>
+  <h2>Coeficiente de asimetria (a3) - Factores de forma</h2>
+  <p>También conocido como sesgo, reflejha el grado de simetría respecto a la media, su calculo manual es a: momento central de orden 3 / desviación estandar. Por lo cual resalta la necesidad de usar el cálculo de momentos. Estos cálculos no se encuentran de forma nativa dentro de R, sino que es necesario tener que instalar y cargar dicho paquete como fue realizado anteriormente con otro paquete para obtener la moda por medio de una función dentro de R. Para este caso el paquete a instalar tiene el nombre moments_013.tar. Nota es posible la instalación de paquetes dentro de R al dar click en la sección paquetes e Instalar paquetes, se escoge un server, preferentemente del país que uno es, para depsués escoger el paquete a instalar y ya por último se carga el paquete.</p>
+  <img src="./images/7.png">
+  <p>El momento 3 y 4 permite calcular la simetria de curtosis.
+      La simetría permite obtener la úbicación donde se encontrará el sesgo, esto partiendo de la media debido a que es a la mitad donde se define el nombre para cada valor que pueda dar el coeficiente de simetria, estos son:
+    <ul>
+      <li>Asimétrica con sesgo negativo a3</li>
+      <li>Simétrica, a3=0</li>
+      <li>Asimétrica con sesgo positivo</li>
+    </ul>
+  Y esto gráficamente se observa de la siguiente forma:
+  <img src="./images/6.png"><br><br>
+  
+  Dentro de R la manera de realizar este cálculo será por medio de la función skewness(), de forma la variable va dentro de la función.<hr>
+  <img src="./images/8.png"><br><br>
+  En mi caso, el coeficiente de asimétria obtenida es negativa lo cual se deberá de interpretar que el sesgo será negativo, o sea que el lugar en donde se tendrá la mayor cantidad de datos será a la izquierda, mientras que el sesgo, donde la cantidad de datos es menor, será a la derecha.
+  <br><img src="./images/9.png"><br><br>
+  Esto es un aproximado, una gráfica genérica, debido a que hasta el momento lo único que se conoce es dónde esta la mayor cantidad de datos pero no sabemos la dispersión de estos, y para tal cosa será necesario calcular el coeficiente de curtosis (a4). 
+  </p>
+</div>
+
+<div>
+  <h2>Coeficiente de curtosis a4 - Factor de forma</h2>
+  <p>Eñ coeficiente de curtosis es la medida de distribución de los datos entorno a la media, de modo que será en sí la dispersión de los datos en la media, indicará si hay tendencia en los datos y qué tan concentran lo están. El criterio para designar a qué tipo de caso corresponde según el valor del coeficiente será por medio de el siguiente listado:
+    <ul>
+      <li>Distribución leptocúrtica a4>3</li>
+      <li>Distribución mesocúrtica a4 = 3</li>
+      <li>Distribución platicúrtica a4<3</li>
+  </ul>
+   
+    <br><img src="./images/10.png"><br><br>
+    
+  Es de esta forma que conoceremos la distribución de los datos, la función para este cálculo ya viene en el paquete moments instalado en R por lo cual solo será necesario invocar dichar función: kurtosis(), sí con k...
+  <br><img src="./images/11.png"><br><br>
+    
+  Finalmente se deduce entonces que nuestros datos tienen una distribución asimétrica con sesgo negativo y una distribución de los datos leptocúrtica entorno a la media.
+  </p>
+</div>
+
+
+<h2>Referencia de imágenes</h2>
+<ul>
+  <li>https://revistas.tec.ac.cr/index.php/eagronegocios/article/download/4456/4046/12439<li>
+  <li>http://virtual.umng.edu.co/distancia/ecosistema/odin/odin_desktop.php?path=Li4vb3Zhcy9pbmdlbmllcmlhX2NpdmlsL3Byb2JhYmlsaWRhZF95X2VzdGFkaXN0aWNhL3VuaWRhZF8xLw==#slide_8</li>
+  
+  </ul>
