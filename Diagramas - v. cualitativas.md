@@ -17,7 +17,7 @@
     <p>
       Existe otros parámetros para colocar en stem:
       <ul>
-        <li>stem(variable, scale="número")<li>
+        <li>stem(variable, scale="número")</li>
         Yo entiendo este parámetro como que realiza una división, puesto que scale es para modificar la longitud de cada renglón, y podemos observar lo siguiente
         <br><img src="./images/13.png"><br>
         
@@ -27,13 +27,13 @@
         Ahora, si aplicamos un scale=4 se tendría que tener que cada renglón va de 0.5 a 0.5, y es lo que se observa
         <br><img src="./images/14.png"><br>
         
-        <li>width<li>
+        <li>width</li>
         Hacce referencia al ancho de la parcela
         
         <li>atom</li>
         Es para modificar la tolerancia.
       </ul>
-    Nota: los datos del diagrama pueden ser copiados
+      Nota: los datos del diagrama pueden ser copiados
       </p>
 </div>
 
@@ -97,11 +97,13 @@
       <li>Se coloca el nombre a cada dato: legend("topright",c("Nombre1","Nombre2",etc),cex=1,fill=vector_colores)</li>
       <li>Finalmente se manda a llamar a pie: pie(datos_porcentajes, labels=etiqueta_nombres, clockwise=T, main="Título de diagrama",col=vectores_colores)</li>
     </ul>
+  <br><img src="./images/17.png"><br>
+    
   </p>
 </div>
 
 
-<h2>Referencias</h2
+<h2>Referencias</h2>
   <ul>
     <li>http://www.estadisticaparatodos.es/taller/graficas/tallos_hojas.html<li>
   </ul>
