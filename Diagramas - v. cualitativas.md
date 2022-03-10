@@ -79,7 +79,27 @@
         <br><img src="./images/16.png"><br>
   </p>
 </div>
+
+<div>
+  <h2>Diagrama de Sectores</h2>
+  <p>
+    Este es un diagrama que es una gráfica de pastel en sí, es destinada para variables cualitativas de modo que cada parte estará divido por porcentaje siendo 360° el 100%
+    y cada parte será obtenida de forma estricta con una regla de 3. Su representación es para ver de mejor manera la cantidad de frecuencias de cada categoría, además de presentar de mejor forma la información. Es importante ver que su representación es en el sentido de las manecillas de reloj, siendo la parte o porcentaje más grande aquel
+    que inicia el diagrama de sectores.
+    En R se obtendrá por medio del comando: pie().
     
+    Los pasos para obtener el diagrama son:
+    <ul>
+      <li>Definir nuestra variables de los datos, o sea los números.</li>
+      <li>Se obtienen los porcentajes de los datos: (datos/suma_datos)*100 [%]</li>
+      <li>Opcional: se pueden agregar la etiqueta de porcentaje a los datos: paste(porcentajes_variable,"%",sep" ")</li>
+      <li>Se debe de definir los colores de cada sección del diagrama: c("red","green","blue")</li>
+      <li>Se coloca el nombre a cada dato: legend("topright",c("Nombre1","Nombre2",etc),cex=1,fill=vector_colores)</li>
+      <li>Finalmente se manda a llamar a pie: pie(datos_porcentajes, labels=etiqueta_nombres, clockwise=T, main="Título de diagrama",col=vectores_colores)</li>
+    </ul>
+  </p>
+</div>
+
 
 <h2>Referencias</h2
   <ul>
