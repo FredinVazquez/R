@@ -1,4 +1,5 @@
-<h1>Diagrama de tallo y hoja</h1>
+<h1>Diagramas para variables cualitativas</h1>
+<h2>Diagrama de tallo y hoja</h2>
 <p>
   Función a usar: stem(), al parecer ya viene de forma nativa<hr><br>
   Es para representación gráfica de datos no agrupados, o sea variables cuantitativas.
