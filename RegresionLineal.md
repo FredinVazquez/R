@@ -38,5 +38,7 @@
   <h2>Interpretación del coeficiente de correlación lineal</h2>
   <br> <img src="https://i.pinimg.com/originals/35/5b/eb/355bebdea7ee98aa54d72ffc40f6e8cd.png"> <br>
   
+  <h2>Ejemplo</h2>
+  Como ejemplo primero se debe de almacenar los datos en las variables x & y (nombre de propuesto para esta actividad), tal que con estas variables ya son las que vamos a operar
   
   </p>
